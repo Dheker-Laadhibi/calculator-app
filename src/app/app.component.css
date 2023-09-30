@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the outer container */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ height: 100vh;
+    background-color: #f0f0f0;
+  
+}
+.container {
+    margin-top: 20px;
+}
+
+/* Style the calculator container */
+.container {
+    width: 50%;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba;
+}
+/* Add CSS for the result section */
+.output {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 24px; /* Adjust the font size as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the text within the result section */
+.output span {
+    display: block;
+}
+
+/* Add padding to the result span */
+.output span {
+    padding: 5px;
+}
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table cells */
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Style the equals button */
+td.equal {
+    background-color: #ff9800;
+    color: #fff;
+    font-weight: bold;
+}
+
+td.equal:hover {
+    background-color: #f57c00;
+}
+
+/* Style the AC (clear) button */
+td.reset {
+    background-color: #ff5722;
+    color: #fff;
+    font-weight: bold;
+}
+
+td.reset:hover {
+    background-color: #e64a19;
+}
